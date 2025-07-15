@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
             ChangeNotifierProvider(create: (_) => CallProvider()),
           ],
           child: MaterialApp(
-            title: 'Agora Video Call',
+            title: 'Flutter Voice Video Call',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(
@@ -52,6 +52,7 @@ class MyApp extends StatelessWidget {
             ),
             themeMode: ThemeMode.system,
             home: const HomeScreen(),
+
           ),
         );
       },
