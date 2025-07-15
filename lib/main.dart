@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
           ],
           child: MaterialApp(
             title: 'Flutter Voice Video Call',
+            
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(

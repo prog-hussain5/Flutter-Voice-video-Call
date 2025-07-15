@@ -1,13 +1,13 @@
 class AgoraConfig {
   // Replace with your Agora App ID
-  static const String appId = '6ee72f9f598047c79b065de8dbee29d3';
+  static const String appId = 'YOUR_AGORA_APP_ID_HERE';
   
   // Replace with your Agora Token (for production)
   // For testing, you can use null or empty string
-  static const String token = "007eJxTYODj6T5s/irFcf7lJe/2rnwmfuPrB9bq0t3/Xh6xt6ng9k5VYDBLTTU3SrNMM7W0MDAxTza3TDIwM01JtUhJSk01skwxNtxaktEQyMggUV3AyMgAgSA+C0NJanEJAwMA2HUg4A==";
+  static const String token = "YOUR_AGORA_TOKEN_HERE";
   
   // Agora Certificate (for token generation)
-  static const String appCertificate = 'bf3cac1d1e874470a831095e8942c672';
+  static const String appCertificate = 'YOUR_AGORA_APP_CERTIFICATE_HERE';
   
   // Token expiration time (in seconds)
   static const int tokenExpireTime = 3600;
